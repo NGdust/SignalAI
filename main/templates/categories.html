@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='categories.js') }}?v=0.0.3"></script>
+{% endblock %}
+
+
+{% block content %}
+<div>
+    <div style="text-align: center">
+        <h1>What would you like to discuss today?</h1>
+    </div>
+    <div style="text-align: center">
+        <input type="checkbox" id="outEmotion" {% if user.outEmotionList%}checked{% endif %}>
+        <label for="outEmotion">Showing emotions every time?</label>
+    </div>
+    <div class="center">
+<!--        <a href="/categories/serial/social" class="blockCategory socialQuestion">-->
+<!--            <div class="icon"><img src="https://image.flaticon.com/icons/svg/206/206875.svg" alt="">Dr. Nancy ( friends / family / loneliness)</div>-->
+<!--        </a>-->
+<!--        <a href="/categories/serial/emotional" class="blockCategory emotionalQuestion ">-->
+<!--            <div class="icon"><img src="https://image.flaticon.com/icons/svg/387/387610.svg" alt=""><span>Dr. Jessie (motivation / selfesteem / feelings / emotions  )</span></div>-->
+<!--        </a>-->
+<!--        <a href="/categories/serial/cognitive" class="blockCategory cognitiveQuestion">-->
+<!--            <div class="icon"><img src="https://image.flaticon.com/icons/svg/387/387561.svg" alt="">Dr. Nolan ( mind / thoughts / ideas)</div>-->
+<!--        </a>-->
+        <a href="/categories/tree/elizabeth" class="blockCategory elizabethQuestion">
+            <div class="icon"><img src="https://image.flaticon.com/icons/svg/206/206875.svg" alt="">Dr Elizabeth (questions)</div>
+        </a>
+    </div>
+</div>
+{% endblock %}

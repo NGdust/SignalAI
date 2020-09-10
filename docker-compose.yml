@@ -1,0 +1,72 @@
+version: '3'
+services:
+
+# MY APP
+  web:
+    build: ./main
+    container_name: main
+    restart: always
+    command: bash -c "python main.py"
+    depends_on:
+      - db
+    volumes:
+      - ./main:/main
+    ports:
+      - 5000:5000
+    env_file: .env
+
+  emoshape:
+    build:
+      ./emoshape
+    container_name: emoshape
+    command: bash -c "python consumer.py"
+    restart: always
+    depends_on:
+      - rabbit
+    volumes:
+      - ./emoshape:/emoshape
+    env_file: .env
+
+# EMOSHAPE SDK
+  sdk:
+    build:
+      ./SDK
+    container_name: sdk
+    restart: always
+    command: bash -c "export QT_QPA_PLATFORM=offscreen && chmod +x EPU_III_SDK_3D-3.6.7.0-Ubuntu-Silent-For-Distrib/EPU_III_SDK_3D_U.sh && EPU_III_SDK_3D-3.6.7.0-Ubuntu-Silent-For-Distrib/EPU_III_SDK_3D_U.sh && echo [X] Start SDK EPU3"
+    volumes:
+      - ./SDK:/SDK
+    ports:
+      - 2424:2424
+    logging:
+      driver: none
+
+# SERVICES
+  rabbit:
+    image: rabbitmq:3-management
+    hostname: "rabbit"
+    container_name: rabbit
+    env_file: .env
+    ports:
+      - 15672:15672
+      - 5672:5672
+    logging:
+      driver: none
+
+  db:
+    image: postgres:latest
+    container_name: postgres_web
+    env_file: .env
+    ports:
+      - 5432:5432
+    logging:
+      driver: none
+
+  redis:
+    container_name: redis
+    image: redis
+    ports:
+      - 6379:6379
+    restart: always
+    logging:
+      driver: none

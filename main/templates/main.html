@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="main">
+
+
+    <div style="text-align: center">
+        <h1>Welcome to SignalAI Prototype.</h1>
+        <div style="margin-bottom: 25px">
+            <p>This is a prototype of a product we're developing called Reflection. We chose for purposes of this
+                protoype the topic of relationships, because we all struggle with relationships in our lives.
+                So think of a relationship in your life, preferrably one that is current, or if don't have a current one
+                then think of someone from the past and identify their firstname and their relationship to you.
+            </p>
+            <p>At the end of the session you will receive XXX</p>
+            <p>Reflection is an augmented human intelligence App that has the ability to bypass the natural biases of
+                our minds.
+                From what people say, to what people think they say, Reflection is able to give us an insight into our
+                underlying thoughts, emotions and behaviors that aren't always apparent to us.</p>
+        </div>
+        <div style="margin-bottom: 40px">
+            <h2>Tutorial:</h2>
+            <div style="text-align: left">
+                <p> 1.  Our main goal is to detect your emotional state</p>
+                <p> 2. If you want to increase the level of  of emotions detection accuracy, please, make the answers as informative as possible (e.g. more than 100 symbols).</p>
+                <p> 3. We process data through AI applications. One of the apps detects emotions and the other one proceeds with semantic analysis.</p>
+                <p> 4. After each answer we display 3 dominant emotions based on your answers analysis.</p>
+            </div>
+        </div>
+        <a href="/categories" class="btn btn-start">START</a>
+    </div>
+</div>
+{% endblock %}

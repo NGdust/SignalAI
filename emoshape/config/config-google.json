@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "suptitle-kvando",
+  "private_key_id": "057b57ff3584ad1d7062482833f7c36be0009720",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTIpd6QEBJKn9A\niGucdDUlK8AMdcnjaiIT+ZhKtiv0MzKrD+NkSUeNAijMn4tXryDD6GCfz1Vh2gza\nqOykuIMsoGphXNG8m0BKAjJPe3ThJnp2dRnlz8d3oqf8BUs6CfXsZ7G3VMzdm8hI\nMIM1v/tn/A6ZPHEfm5w7wY3Kp3MzDiIklMONy38FqUogbELdGoL4SuTamAS6lSEu\nt/RpVa/7qVKTSZRLdXq/LzJrNf3aCaEqaqiP6UqYflRquBNfnvvJK8pK92Owd/pr\nPh6VXgKtMJtXRhWZwDhrv8QIIP2HpNR1ULThGnlWU3yyourfukk3Ep33VAXKdwIV\n8aeH15llAgMBAAECggEAEuMAxuRRe9oL2RN7ANtaV7FitBqjTS8UzlGhAGnsY6Ni\n0G+S6Uku19vOF4PcHKNjXHMAlbsfyamORc8foBqLTWYqLfx2HJeMuDIbGwYRrgRZ\npxgRkX+1Oav4t/AnSxFSCOw7twkkbFx/nYmNazT5wdMH4UhJXEj4wFWvn+W7xeC/\nnyYFfQnYKwz1Zk+Orc23QBnT30LCbkJvoqcvxuUdtyr2uZWmUbKMVwdmpiEAXG6d\nQRdWgOfsIymn3Qgx7F8+gKdHobhbkJmx/HDsups+CSzWE7XiO1gI4KR6vIMf7OBn\njITCEyPSjHVMrnMBr5mUYjA9QMhG5WV0yqY7BX+q0QKBgQD18iWOYqmw4DrsmLNJ\niH82iPLiGQTrXbRpBoUntYOtffA9BY7sp0Da6Fa7EZLVNXv6d0Shj2BsWyU3H3j/\ntPQGkWJeYopfrzwzPMkgDOZ0rZ1++HH98hPeKM0tbXuIQ4OhMZtwS68dJWpX97MP\nQFbw7BkHpBs17NAYFh0rN06kGQKBgQDbxCVs+Qfx9UKtpeYKBHtJvE3b+cTOV2dD\nXV8JqJSm+UWh4Gs0zYrjPIlPsuiiTZGpEhlnQZSXRsR4M4K4M9HZYmppIpHFaNKw\nUM4n109JgnkjufEzAK102OLDoCH03LYABjBte40KkIFXC8dk6H9btYSa1/3EEW0X\nGmaRPjrpLQKBgQCBo8b6G7WYn0lQB1mR7BoqM9vbJBb8vaLoLWCowrwLCjRE5hYl\nVjAQc6Gr76J3Mj8MkiuiAYJw+0ZNnRBZsRdkEuRIHicUMrlHxMW7WDFt1UoMcIcd\ntamVU+p7BJe2BuhuYkit06cVdPBuOAmxg1eQnNLAvVb+gLpbx+ROMFQKmQKBgQC6\nelOvhhihzRVJN65c7bSXurruX6AJ3sx2svIDxhJtJLNbSoxtf8PMUf/JquwPXHau\n2fbIUTN+scPgowTWvNHh/cqBb531vp6Ykdh8ogxbOeUE1bC/MGH+9lJk4KovlmCw\n4I+TNvVU841siUgmbcozzXC523EvQAIrSnGh6QYf+QKBgHfFvpshmPVMsJwJ4lMl\nNLQM4Mxjq7sjLQ9Bf+v93VIBqQocys4rolb0ZVm+9Q6q5GsMbRgfYNjtVf+i4duP\nmkox6SQPBD4j50jg5Li58W3p7s69kJtrRO4Wtjub2D1gcwYXDO9D5vjdWpHr2DjG\ngfWiQUJWwPPz6mAd/zcL2fe8\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-uqh0v@suptitle-kvando.iam.gserviceaccount.com",
+  "client_id": "109261946053656764624",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-uqh0v%40suptitle-kvando.iam.gserviceaccount.com"
+}
